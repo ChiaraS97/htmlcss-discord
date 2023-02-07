@@ -40,6 +40,7 @@ ul {
 .container {
     margin: 0 auto;
     max-width: 1200px;
+    min-width: 200px;
 }
 
 .text-center {
@@ -128,11 +129,13 @@ a.button.link {
     color: var(--primary-color);
 }
 
-#last-button {
+.violet-btn {
     background-color: var(--details);
     color: var(--primary-color);
     text-decoration: none;
     margin: 1rem 0 0;
+    border-radius: 15px;
+    padding: .5rem .5rem;
 }
 
 .stars {
@@ -244,4 +247,8 @@ footer li {
 hr {
     border: none;
     border-top: 1px solid var(--details);
+}
+
+#last-btn {
+    margin-bottom: 1rem;
 }
