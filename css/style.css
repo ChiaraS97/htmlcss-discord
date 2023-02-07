@@ -32,7 +32,7 @@ ul {
 .d-flex {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content:space-between;
     align-content: flex-start;
     
 }
@@ -189,6 +189,7 @@ section h1 {
 footer {
     background-color: var(--bg-footer);
     color: var(--primary-color);
+    padding: 2rem 4rem;
 }
 
 footer h3 {
@@ -218,3 +219,29 @@ select {
     max-width: 55%;
 }
 
+footer ul {
+    /* padding-right: 3rem; */
+    line-height: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+footer span{
+    color: var(--details);
+}
+
+footer li {
+    padding-right: 3rem;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--details);
+}
