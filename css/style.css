@@ -51,6 +51,10 @@ ul {
     width: 50%;
 }
 
+.w-20 {
+    max-width: 20%;
+}
+
 .column {
     flex-flow: column;
 }
@@ -186,3 +190,31 @@ footer {
     background-color: var(--bg-footer);
     color: var(--primary-color);
 }
+
+footer h3 {
+    color: var(--details);
+    font-size:1.5rem;
+}
+
+.language-container {
+    margin-top: 1rem;
+    justify-content: flex-start;
+}
+
+.language-container img {
+    width: 20px;
+}
+
+select {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: none;
+    margin-left: .3rem;
+}
+
+.social-icons-container {
+    margin-top: 1rem;
+    font-size: 1rem;
+    max-width: 55%;
+}
+
